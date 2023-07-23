@@ -1,0 +1,59 @@
+.form-container {
+  width: 100%;
+  min-height: 100vh;
+  background: grey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: url("../../assets/desk2.png");
+  background-position: center;
+  background-size: cover;
+}
+#login {
+  font-size: 30px;
+}
+.form-container > .form {
+  /* border: 1px solid black; */
+  min-width: 300px;
+  min-height: 400px;
+  padding: 12px;
+  margin: 15px;
+  line-height: 2;
+  border-radius: 10px;
+  background: #ddd5d572;
+  backdrop-filter: blur(12rem);
+}
+.form label {
+  font-size: 18px;
+}
+.form input {
+  width: 95%;
+  padding: 5px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  font-weight: 500;
+}
+.form #submit {
+  width: 50%;
+  padding: 8px;
+  margin: 15px 0;
+  font-size: 16px;
+  border-radius: 15px;
+  border: 0;
+  background: white;
+}
+#submit:hover {
+  border: 2px solid hotpink;
+}
+.b-links a {
+  margin: 0 5px;
+}
+.b-links > *:hover {
+  color: hotpink;
+}
+#submit:active {
+  background: hotpink;
+  color: white;
+}

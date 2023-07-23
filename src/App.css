@@ -1,0 +1,52 @@
+:root {
+  --g-light: #c8e6c9;
+  --g-dark: #309233;
+}
+
+.nav-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  box-shadow: 0 2px 5px 1px rgba(76, 76, 76, 0.144);
+}
+.nav-wrapper #nav-title {
+  font-size: 2.3rem;
+  width: 12%;
+}
+.nav-wrapper .n-w-links {
+  display: flex;
+  flex: 0.42;
+  justify-content: center;
+}
+.nav-wrapper .n-w-links .links {
+  margin: 0 8px 0 8px;
+  /* padding: 4px; */
+}
+.links > a:hover {
+  color: #d81b60;
+}
+.n-w-btns {
+  display: flex;
+  width: 15%;
+  justify-content: flex-end;
+}
+.n-w-btns .n-btns {
+  padding: 12px;
+  border: none;
+  margin: 5px;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.n-w-btns .start {
+  background: #000;
+  color: white;
+}
+.n-btns:hover {
+  cursor: pointer;
+  box-shadow: 0 2px 12px 3px #0000001c;
+}
+/* .login:hover {
+  background: var(--g-light);
+} */

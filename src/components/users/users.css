@@ -1,0 +1,44 @@
+.user-section {
+  width: 100%;
+  min-height: 70vh;
+  /* background: grey; */
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 2rem 0 2rem 0;
+}
+#u-title {
+  text-align: center;
+  margin: 2.8rem 0;
+  font-size: 2rem;
+}
+.user-card {
+  /* border: 1px solid black; */
+  padding: 12px;
+  font-size: 18px;
+  border-radius: 12px;
+  transition: all 0.12s ease-out;
+  height: 280px;
+  overflow: hidden;
+  position: relative;
+}
+.user-card > li {
+  margin: 5px 0 0 0;
+}
+.user-card:hover {
+  box-shadow: 0 4px 6px 1px rgba(128, 128, 128, 0.338);
+}
+.user-card span {
+  font-weight: 500;
+  margin: 0 5px;
+}
+.user-card #u-hire {
+  color: rgb(196, 23, 110);
+}
+.user-card img {
+  position: absolute;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.5;
+  z-index: -1000;
+}
